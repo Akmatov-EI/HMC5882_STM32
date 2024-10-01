@@ -1,0 +1,3 @@
+C:/magnetometer5882_define_2/build/CMakeFiles/Nucleo_F103_Template.elf.dir
+C:/magnetometer5882_define_2/build/CMakeFiles/edit_cache.dir
+C:/magnetometer5882_define_2/build/CMakeFiles/rebuild_cache.dir

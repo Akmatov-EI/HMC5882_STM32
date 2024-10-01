@@ -1,0 +1,134 @@
+[
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\CMSIS\\Device\\startup_stm32f103xb.s.obj -c C:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device\\startup_stm32f103xb.s",
+  "file": "C:/magnetometer5882_define_2/Drivers/CMSIS/Device/startup_stm32f103xb.s",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/CMSIS/Device/startup_stm32f103xb.s.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\CMSIS\\Device\\system_stm32f1xx.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device\\system_stm32f1xx.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/CMSIS/Device/system_stm32f1xx.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/CMSIS/Device/system_stm32f1xx.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_adc.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_adc.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_adc_ex.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_adc_ex.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_i2c.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_i2c.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\DWT_Delay.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\DWT_Delay.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/DWT_Delay.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/DWT_Delay.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\LCD_i2c.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\LCD_i2c.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/LCD_i2c.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/LCD_i2c.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\hmc5883.c.obj -c C:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Src\\hmc5883.c",
+  "file": "C:/magnetometer5882_define_2/Drivers/STM32F1xx_HAL_Driver/Src/hmc5883.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/hmc5883.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Core\\Src\\stm32f1xx_hal_msp.c.obj -c C:\\magnetometer5882_define_2\\Core\\Src\\stm32f1xx_hal_msp.c",
+  "file": "C:/magnetometer5882_define_2/Core/Src/stm32f1xx_hal_msp.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Core\\Src\\stm32f1xx_it.c.obj -c C:\\magnetometer5882_define_2\\Core\\Src\\stm32f1xx_it.c",
+  "file": "C:/magnetometer5882_define_2/Core/Src/stm32f1xx_it.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+},
+{
+  "directory": "C:/magnetometer5882_define_2/build",
+  "command": "C:\\PROGRA~2\\GCC-AR~1.10\\bin\\AR19DD~1.EXE -DHSE_VALUE=16000000 -DSTM32F103xB -DUSE_HAL_DRIVER -IC:\\magnetometer5882_define_2\\Core\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc -IC:\\magnetometer5882_define_2\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Include -IC:\\magnetometer5882_define_2\\Drivers\\CMSIS\\Device -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\Nucleo_F103_Template.elf.dir\\Core\\Src\\main.c.obj -c C:\\magnetometer5882_define_2\\Core\\Src\\main.c",
+  "file": "C:/magnetometer5882_define_2/Core/Src/main.c",
+  "output": "CMakeFiles/Nucleo_F103_Template.elf.dir/Core/Src/main.c.obj"
+}
+]

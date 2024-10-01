@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "inttypes.h": "c",
+        "newlib.h": "c",
+        "hmc5883.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "dwt_delay.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}

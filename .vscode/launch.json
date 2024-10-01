@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (ST util)",
+            "request": "launch",
+            "type": "cortex-debug",
+            "cwd": "${workspaceRoot}",
+            "servertype": "openocd",
+            "executable": "${command:cmake.launchTargetPath}",
+            "svdFile": "./STM32F103xx.svd",
+            "configFiles": [
+                "./stm32f103.cfg"
+            ]
+        }
+    ],
+    "compounds": []
+}

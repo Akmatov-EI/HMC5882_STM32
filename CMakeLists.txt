@@ -1,0 +1,116 @@
+# Укажем под какую систему мы все нижеследующее будем собирать
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_VERSION 1)
+cmake_minimum_required(VERSION 3.17)
+
+# Укажим какие компиляторы линковщики и т.д. будем использовать для кросс-компиляции
+set(CMAKE_C_COMPILER arm-none-eabi-gcc)
+set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
+set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
+set(CMAKE_AR arm-none-eabi-ar)
+set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
+set(CMAKE_OBJDUMP arm-none-eabi-objdump)
+set(SIZE arm-none-eabi-size)
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+# Настройки проекта
+project(Nucleo_F103_Template C CXX ASM)
+set(CMAKE_CXX_STANDART 17)
+set(CMAKE_C_STANDART 99)
+
+# Раскоментируйте ниже строчки для использования аппаратного FPU
+#add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
+#add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+#add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+
+add_compile_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
+add_compile_options(-ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
+
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
+	message(STATUS "Maximum optimization for speed")
+	add_compile_options(-Ofast)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
+	message(STATUS "Maximum optimization for speed, debug info included")
+	add_compile_options(-Ofast -g)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
+	message(STATUS "Maximum optimization for size")
+	add_compile_options(-Os)
+else ()
+	message(STATUS "Minimal optimization, debug info included")
+	add_compile_options(-Og -g)
+endif ()
+
+# Тут прописываем пути ко всем инклудам проекта
+include_directories(
+		Core/Inc
+		Drivers/STM32F1xx_HAL_Driver/Inc
+		Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+		Drivers/CMSIS/Include
+		Drivers/CMSIS/Device
+)
+
+# Тут прописываем дополнительные дефайны к проекту
+add_definitions(-DUSE_HAL_DRIVER -DSTM32F103xB -DHSE_VALUE=16000000)
+
+# Тут прописываются пути ко всем папкам с исходниками
+set (GROUP_SRC_CMSIS
+		Drivers/CMSIS/Device/startup_stm32f103xb.s
+		Drivers/CMSIS/Device/system_stm32f1xx.c
+)
+
+set (GROUP_SRC_HAL_DRIVER
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
+		Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
+		Drivers/STM32F1xx_HAL_Driver/Src/DWT_Delay.c
+		Drivers/STM32F1xx_HAL_Driver/Src/LCD_i2c.c
+		Drivers/STM32F1xx_HAL_Driver/Src/hmc5883.c
+)
+
+set (GROUP_SRC_CORE
+		Core/Src/stm32f1xx_hal_msp.c
+		Core/Src/stm32f1xx_it.c
+		Core/Src/main.c
+)
+
+set (SOURCES
+		${GROUP_SRC_CMSIS}
+		${GROUP_SRC_HAL_DRIVER}
+		${GROUP_SRC_CORE}
+)
+
+# Тут указывается файл скрипта линковщика
+set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103XB_FLASH.ld)
+
+add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
+add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
+add_link_options(-T ${LINKER_SCRIPT})
+
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
+
+target_link_libraries(${PROJECT_NAME}.elf
+      m
+      c
+      nosys)
+
+set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
+set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
+
+add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
+		COMMAND ${CMAKE_OBJCOPY} -Oihex $<TARGET_FILE:${PROJECT_NAME}.elf> ${HEX_FILE}
+		COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
+		COMMENT "Building ${HEX_FILE}
+Building ${BIN_FILE}")
+
